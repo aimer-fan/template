@@ -1,0 +1,38 @@
+{
+  "name": "@aimerfan/rollup-ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "pnpm clean && rollup -c",
+    "clean": "rimraf dist",
+    "publish": "pnpm build && pnpm publish --access public"
+  },
+  "author": "aimerfan <1261105760@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@aimerfan/eslint-config-typescript": "^0.0.8",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.10.1",
+    "eslint": "^8.54.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.6.1",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
