@@ -1,0 +1,14 @@
+{
+  "include": [
+    "vite.config.ts",
+    "uno.config.ts",
+    "src/globals.d.ts"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ESNext"],
+    "types": ["vite", "node"]
+  }
+}

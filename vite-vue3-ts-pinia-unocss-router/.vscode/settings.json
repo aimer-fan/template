@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "attributify",
+    "nocheck",
+    "pinia",
+    "unocss",
+    "unplugin"
+  ],
+
+  "eslint.experimental.useFlatConfig": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

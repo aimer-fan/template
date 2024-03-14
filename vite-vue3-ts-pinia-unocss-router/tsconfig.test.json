@@ -1,0 +1,17 @@
+{
+  "include": [
+    "**/*.test.ts",
+    "src/**/*.vue",
+    "src/globals.d.ts"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["vitest/globals", "vite", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
