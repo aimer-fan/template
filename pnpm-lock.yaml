@@ -43,19 +43,19 @@ importers:
         version: 5.3.2
       unocss:
         specifier: ^0.58.0
-        version: 0.58.0(postcss@8.4.32)(vite@5.0.5)
+        version: 0.58.0(postcss@8.4.35)(vite@5.0.5)
       vite:
         specifier: ^5.0.5
         version: 5.0.5
 
   rollup-ts:
     devDependencies:
-      '@aimerfan/eslint-config-typescript':
-        specifier: ^0.0.8
-        version: 0.0.8(eslint@8.55.0)(typescript@5.3.2)
+      '@aimerfan/eslint-config':
+        specifier: ^0.1.5
+        version: 0.1.5(eslint@8.57.0)(typescript@5.4.2)
       '@rollup/plugin-typescript':
         specifier: ^11.1.5
-        version: 11.1.5(rollup@4.6.1)(tslib@2.6.2)(typescript@5.3.2)
+        version: 11.1.5(rollup@4.6.1)(tslib@2.6.2)(typescript@5.4.2)
       '@tsconfig/node20':
         specifier: ^20.1.2
         version: 20.1.2
@@ -63,8 +63,8 @@ importers:
         specifier: ^20.10.1
         version: 20.10.3
       eslint:
-        specifier: ^8.54.0
-        version: 8.55.0
+        specifier: ^8.57.0
+        version: 8.57.0
       rimraf:
         specifier: ^5.0.5
         version: 5.0.5
@@ -73,13 +73,13 @@ importers:
         version: 4.6.1
       rollup-plugin-dts:
         specifier: ^6.1.0
-        version: 6.1.0(rollup@4.6.1)(typescript@5.3.2)
+        version: 6.1.0(rollup@4.6.1)(typescript@5.4.2)
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
       typescript:
-        specifier: ^5.3.2
-        version: 5.3.2
+        specifier: ^5.4.2
+        version: 5.4.2
 
   vite-vue3-ts-pinia-unocss-router:
     dependencies:
@@ -131,7 +131,7 @@ importers:
         version: 5.4.2
       unocss:
         specifier: ^0.58.5
-        version: 0.58.5(postcss@8.4.32)(vite@5.1.6)
+        version: 0.58.5(postcss@8.4.35)(vite@5.1.6)
       unplugin-auto-import:
         specifier: ^0.17.5
         version: 0.17.5
@@ -1152,7 +1152,7 @@ packages:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
     dev: true
 
-  /@rollup/plugin-typescript@11.1.5(rollup@4.6.1)(tslib@2.6.2)(typescript@5.3.2):
+  /@rollup/plugin-typescript@11.1.5(rollup@4.6.1)(tslib@2.6.2)(typescript@5.4.2):
     resolution: {integrity: sha512-rnMHrGBB0IUEv69Q8/JGRD/n4/n6b3nfpufUu26axhUcboUzv/twfZU8fIBbTOphRAe0v8EyxzeDpKXqGHfyDA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -1169,7 +1169,7 @@ packages:
       resolve: 1.22.8
       rollup: 4.6.1
       tslib: 2.6.2
-      typescript: 5.3.2
+      typescript: 5.4.2
     dev: true
 
   /@rollup/pluginutils@5.1.0(rollup@4.6.1):
@@ -1912,7 +1912,7 @@ packages:
       sirv: 2.0.4
     dev: true
 
-  /@unocss/postcss@0.58.0(postcss@8.4.32):
+  /@unocss/postcss@0.58.0(postcss@8.4.35):
     resolution: {integrity: sha512-2hAwLbfUFqysi8FN1cn3xkHy5GhLMlYy6W4NrAZ2ws7F2MKpsCT2xCj7dT5cI2tW8ulD2YoVbKH15dBhNsMNUA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1924,10 +1924,10 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.5
-      postcss: 8.4.32
+      postcss: 8.4.35
     dev: true
 
-  /@unocss/postcss@0.58.5(postcss@8.4.32):
+  /@unocss/postcss@0.58.5(postcss@8.4.35):
     resolution: {integrity: sha512-m4L2YRdYfT6CV306Kl2VwEwbqa/92EpW4GE2Kqak1RuJyFJXBnWEEMJV4Uy6B1jWKLlCEWkuVUW33JUg7X6BxQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1939,7 +1939,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.8
-      postcss: 8.4.32
+      postcss: 8.4.35
     dev: true
 
   /@unocss/preset-attributify@0.58.0:
@@ -4191,7 +4191,7 @@ packages:
       glob: 10.3.10
     dev: true
 
-  /rollup-plugin-dts@6.1.0(rollup@4.6.1)(typescript@5.3.2):
+  /rollup-plugin-dts@6.1.0(rollup@4.6.1)(typescript@5.4.2):
     resolution: {integrity: sha512-ijSCPICkRMDKDLBK9torss07+8dl9UpY9z1N/zTeA1cIqdzMlpkV3MOOC7zukyvQfDyxa1s3Dl2+DeiP/G6DOw==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -4200,7 +4200,7 @@ packages:
     dependencies:
       magic-string: 0.30.5
       rollup: 4.6.1
-      typescript: 5.3.2
+      typescript: 5.4.2
     optionalDependencies:
       '@babel/code-frame': 7.23.5
     dev: true
@@ -4559,7 +4559,7 @@ packages:
       - rollup
     dev: true
 
-  /unocss@0.58.0(postcss@8.4.32)(vite@5.0.5):
+  /unocss@0.58.0(postcss@8.4.35)(vite@5.0.5):
     resolution: {integrity: sha512-MSPRHxBqWN+1AHGV+J5uUy4//e6ZBK6O+ISzD0qrXcCD/GNtxk1+lYjOK2ltkUiKX539+/KF91vNxzhhwEf+xA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4575,7 +4575,7 @@ packages:
       '@unocss/cli': 0.58.0
       '@unocss/core': 0.58.0
       '@unocss/extractor-arbitrary-variants': 0.58.0
-      '@unocss/postcss': 0.58.0(postcss@8.4.32)
+      '@unocss/postcss': 0.58.0(postcss@8.4.35)
       '@unocss/preset-attributify': 0.58.0
       '@unocss/preset-icons': 0.58.0
       '@unocss/preset-mini': 0.58.0
@@ -4598,7 +4598,7 @@ packages:
       - supports-color
     dev: true
 
-  /unocss@0.58.5(postcss@8.4.32)(vite@5.1.6):
+  /unocss@0.58.5(postcss@8.4.35)(vite@5.1.6):
     resolution: {integrity: sha512-0g4P6jLgRRNnhscxw7nQ9RHGrKJ1UPPiHPet+YT3TXUcmy4mTiYgo9+kGQf5bjyrzsELJ10cT6Qz2y6g9Tls4g==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4614,7 +4614,7 @@ packages:
       '@unocss/cli': 0.58.5
       '@unocss/core': 0.58.5
       '@unocss/extractor-arbitrary-variants': 0.58.5
-      '@unocss/postcss': 0.58.5(postcss@8.4.32)
+      '@unocss/postcss': 0.58.5(postcss@8.4.35)
       '@unocss/preset-attributify': 0.58.5
       '@unocss/preset-icons': 0.58.5
       '@unocss/preset-mini': 0.58.5
