@@ -1,3 +1,3 @@
 # templates
 
-TODO...
+Store some project templates
