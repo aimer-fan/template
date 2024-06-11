@@ -4,5 +4,6 @@
       "fileMatch": ["/**/manifest.json"],
       "url": "https://json.schemastore.org/chrome-manifest"
     }
-  ]
+  ],
+  "eslint.experimental.useFlatConfig": true
 }
