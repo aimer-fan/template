@@ -24,11 +24,11 @@
   "author": "aimerfan <1261105760@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "@aimerfan/eslint-config": "^0.1.5",
+    "@aimerfan/eslint-config": "^0.2.2",
     "@rollup/plugin-typescript": "^11.1.5",
     "@tsconfig/node20": "^20.1.2",
     "@types/node": "^20.10.1",
-    "eslint": "^8.57.0",
+    "eslint": "^9.4.0",
     "rimraf": "^5.0.5",
     "rollup": "^4.6.1",
     "rollup-plugin-dts": "^6.1.0",
