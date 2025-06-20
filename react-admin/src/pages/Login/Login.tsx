@@ -43,7 +43,7 @@ export default function Login () {
             name="password"
             rules={ [{ required: true, message: 'Please input your Password!' }] }
           >
-            <Input.Password placeholder="Password" />
+            <Input.Password autoComplete='current-password' placeholder="Password" />
           </Form.Item>
 
           <Form.Item>

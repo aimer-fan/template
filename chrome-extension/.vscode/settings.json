@@ -5,5 +5,5 @@
       "url": "https://json.schemastore.org/chrome-manifest"
     }
   ],
-  "eslint.experimental.useFlatConfig": true
+  "eslint.useFlatConfig": true
 }

@@ -19,7 +19,7 @@ export type LoginFieldType = {
 
 const fakeAuth = (field: LoginFieldType) => new Promise<string>((resolve, reject) => {
   setTimeout(() => {
-    if (field.username !== 'admin' || field.password !== 'admin123456') {
+    if (field.username !== 'admin' || field.password !== 'admin') {
       return reject(new Error('Invalid username or password'))
     }
     resolve('fake_token')

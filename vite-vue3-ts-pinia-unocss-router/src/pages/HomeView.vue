@@ -6,7 +6,7 @@ function send () {
 
 <template>
   <div>
-    <div>HomeView</div>
+    <h1>HomeView</h1>
     <BasicButton @click="send">BasicButton</BasicButton>
   </div>
 </template>

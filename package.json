@@ -9,14 +9,14 @@
     "type": "git",
     "url": "git+https://github.com/aimer-fan/templates.git"
   },
-  "author": "aimerfan <1261105760@qq.com>",
   "license": "MIT",
+  "author": "aimerfan <1261105760@qq.com>",
   "bugs": {
     "url": "https://github.com/aimer-fan/templates/issues"
   },
   "homepage": "https://github.com/aimer-fan/templates#readme",
   "devDependencies": {
-    "@aimerfan/eslint-config": "^0.2.10",
-    "eslint": "^9.19.0"
+    "@aimerfan/eslint-config": "^0.3.2",
+    "eslint": "^9.29.0"
   }
 }
