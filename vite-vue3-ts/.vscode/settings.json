@@ -1,0 +1,10 @@
+{
+  "cSpell.words": [
+    "unocss",
+    "unplugin",
+    "Vite"
+  ],
+
+  "eslint.useFlatConfig": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
