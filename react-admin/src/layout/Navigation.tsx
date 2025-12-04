@@ -1,11 +1,12 @@
-import { Menu, type MenuProps } from 'antd'
+import { Menu } from 'antd'
+import type { MenuProps } from 'antd'
 import { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router'
 import type { RouteConfigItem } from '@/router/config'
 import { RouterConfig } from '@/router/config'
 
 type NavigationProps = {
-  collapsed: boolean;
+  collapsed: boolean
 }
 export default function Navigation (props: NavigationProps) {
   const navigate = useNavigate()

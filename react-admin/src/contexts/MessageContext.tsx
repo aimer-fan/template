@@ -3,13 +3,13 @@ import type { MessageInstance } from 'antd/es/message/interface'
 import { createContext, useContext } from 'react'
 
 type MessageProviderProps = {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 type IMessageContext = {
-  success: (message: string) => void;
-  error: (message: string) => void;
-  warning: (message: string) => void;
-  open: MessageInstance['open'];
+  success: (message: string) => void
+  error: (message: string) => void
+  warning: (message: string) => void
+  open: MessageInstance['open']
 }
 export const messageContext = createContext<IMessageContext>({
   success: () => {},

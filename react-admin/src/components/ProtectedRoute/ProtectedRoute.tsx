@@ -2,7 +2,7 @@ import { Navigate, useLocation } from 'react-router'
 import { useAuth } from '@/contexts/AuthContext'
 
 type ProtectedRouteProps = {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 export default function ProtectedRoute ({ children }: ProtectedRouteProps) {

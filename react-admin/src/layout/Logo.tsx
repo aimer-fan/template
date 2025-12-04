@@ -1,7 +1,7 @@
 import { theme } from 'antd'
 
 type LogoProps = {
-  collapsed: boolean;
+  collapsed: boolean
 }
 
 export default function Logo (props: LogoProps) {

@@ -2,11 +2,11 @@ import { DashboardOutlined, FormOutlined, LinkOutlined } from '@ant-design/icons
 import { lazy } from 'react'
 
 export type RouteConfigItem = {
-  path: string;
-  label: string;
-  element?: React.ReactNode;
-  icon?: React.ReactNode;
-  children?: RouteConfigItem[];
+  path: string
+  label: string
+  element?: React.ReactNode
+  icon?: React.ReactNode
+  children?: RouteConfigItem[]
 }
 
 const DashboardLazy = lazy(() => import('@/pages/Dashboard/Dashboard'))

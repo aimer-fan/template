@@ -41,9 +41,7 @@ export default defineConfig(({ mode }) => {
       coverage: {
         provider: 'v8',
         enabled: true,
-        include: [
-          'src/components/**',
-        ],
+        include: ['src/components/**'],
       },
     },
   }

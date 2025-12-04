@@ -3,7 +3,8 @@ import { AuthProvider } from '../contexts/AuthContext'
 import ProtectedRoute from '../components/ProtectedRoute/ProtectedRoute'
 import DefaultLayout from '../layout/DefaultLayout'
 import Login from '../pages/Login/Login'
-import { RouterConfig, type RouteConfigItem } from './config'
+import { RouterConfig } from './config'
+import type { RouteConfigItem } from './config'
 
 const Router: React.FC = () => {
   function transformDynamicRoutes (routes: RouteConfigItem[]) {

@@ -3,11 +3,11 @@ import { devtools } from 'zustand/middleware'
 import type {} from '@redux-devtools/extension'
 
 type CounterState = {
-  count: number;
-  increment: () => void;
-  decrement: () => void;
-  reset: () => void;
-  incrementBy: (value: number) => void;
+  count: number
+  increment: () => void
+  decrement: () => void
+  reset: () => void
+  incrementBy: (value: number) => void
 }
 
 export const useCounterStore = create<CounterState>()(

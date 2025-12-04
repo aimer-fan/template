@@ -12,19 +12,19 @@
   "license": "MIT",
   "author": "aimerfan <1261105760@qq.com>",
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
-    "@aimerfan/eslint-config": "^0.3.3",
-    "@types/react": "^19.2.6",
+    "@aimerfan/eslint-config": "^0.3.4",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "@unocss/preset-attributify": "^66.5.7",
-    "@unocss/reset": "^66.5.7",
+    "@unocss/preset-attributify": "^66.5.10",
+    "@unocss/reset": "^66.5.10",
     "@vitejs/plugin-react": "^4.7.0",
     "eslint": "^9.39.1",
     "typescript": "^5.9.3",
-    "unocss": "^66.5.7",
+    "unocss": "^66.5.10",
     "vite": "^6.4.1"
   }
 }
