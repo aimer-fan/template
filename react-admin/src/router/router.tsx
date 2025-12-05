@@ -5,6 +5,7 @@ import DefaultLayout from '../layout/DefaultLayout'
 import Login from '../pages/Login/Login'
 import { RouterConfig } from './config'
 import type { RouteConfigItem } from './config'
+import NotFoundPage from '@/pages/404'
 
 const Router: React.FC = () => {
   function transformDynamicRoutes (routes: RouteConfigItem[]) {
@@ -26,7 +27,7 @@ const Router: React.FC = () => {
           </Route>
 
           <Route path='/login' element={ <Login /> } key='login'></Route>
-          <Route path='/404' element={ <div>404</div> } key='404'></Route>
+          <Route path='/404' element={ <NotFoundPage /> } key='404'></Route>
           <Route path='*' element={ <Navigate to='/404' replace /> } key='404'></Route>
         </Routes>
       </AuthProvider>

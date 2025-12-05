@@ -24,9 +24,12 @@
   },
   "devDependencies": {
     "@aimerfan/eslint-config": "^0.3.4",
+    "@iconify-json/material-symbols": "^1.2.49",
+    "@iconify-json/mdi": "^1.2.3",
     "@redux-devtools/extension": "^3.3.0",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
+    "@unocss/preset-icons": "^66.5.10",
     "@vitejs/plugin-react": "^4.7.0",
     "eslint": "^9.39.1",
     "unocss": "^65.5.0",

@@ -2,7 +2,7 @@ import type { LoginFieldType } from '@/contexts/AuthContext'
 import { useAuth } from '@/contexts/AuthContext'
 import { useMessage } from '@/contexts/MessageContext'
 import type { FormProps } from 'antd'
-import { Form, Input, Button, Card } from 'antd'
+import { Form, Input, Button, Card, Layout } from 'antd'
 import { useState } from 'react'
 
 export default function Login () {
@@ -23,7 +23,7 @@ export default function Login () {
   }
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <Layout className="flex justify-center items-center h-screen">
       <Card style={{ width: 400 }}>
         <h1 className='text-center'>Login Form</h1>
         <Form
@@ -53,6 +53,6 @@ export default function Login () {
           </Form.Item>
         </Form>
       </Card>
-    </div>
+    </Layout>
   )
 }
