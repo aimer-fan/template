@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@aimerfan/eslint-config": "^0.3.4",
-    "@types/node": "^20.19.25",
+    "@types/node": "^20.19.26",
     "@unocss/reset": "^0.58.9",
     "@vitejs/plugin-vue": "^5.2.4",
     "@vitest/coverage-v8": "^4.0.15",

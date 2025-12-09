@@ -29,7 +29,7 @@
     "@aimerfan/eslint-config": "^0.3.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@tsconfig/node20": "^20.1.8",
-    "@types/node": "^20.19.25",
+    "@types/node": "^20.19.26",
     "eslint": "^9.39.1",
     "rimraf": "^6.1.2",
     "rollup": "^4.53.3",
