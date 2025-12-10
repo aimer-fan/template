@@ -27,9 +27,9 @@
   "author": "aimerfan <1261105760@qq.com>",
   "devDependencies": {
     "@aimerfan/eslint-config": "^0.3.4",
-    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/plugin-typescript": "^12.3.0",
     "@tsconfig/node20": "^20.1.8",
-    "@types/node": "^20.19.26",
+    "@types/node": "^24.10.2",
     "eslint": "^9.39.1",
     "rimraf": "^6.1.2",
     "rollup": "^4.53.3",

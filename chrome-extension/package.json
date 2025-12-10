@@ -21,10 +21,10 @@
     "@types/react-dom": "^19.2.3",
     "@unocss/preset-attributify": "^66.5.10",
     "@unocss/reset": "^66.5.10",
-    "@vitejs/plugin-react": "^4.7.0",
+    "@vitejs/plugin-react": "^5.1.2",
     "eslint": "^9.39.1",
     "typescript": "^5.9.3",
     "unocss": "^66.5.10",
-    "vite": "^6.4.1"
+    "vite": "^7.2.7"
   }
 }

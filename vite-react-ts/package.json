@@ -21,9 +21,9 @@
     "@aimerfan/eslint-config": "^0.3.4",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^4.7.0",
+    "@vitejs/plugin-react": "^5.1.2",
     "eslint": "^9.39.1",
     "typescript": "^5.9.3",
-    "vite": "^6.4.1"
+    "vite": "^7.2.7"
   }
 }

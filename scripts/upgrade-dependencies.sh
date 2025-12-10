@@ -19,7 +19,7 @@ echo "$PACKAGES"
 for PACKAGE_DIR in $PACKAGES; do
   echo -e "\nUpgrading dependencies in $PACKAGE_DIR\n"
   cd "$PACKAGE_DIR"
-  pnpm upgrade
+  pnpm upgrade --latest
   pnpm exec eslint --fix . || echo "ESLint fix failed in $PACKAGE_DIR, please check manually."
   echo -e "\nBuilding package in $PACKAGE_DIR\n"
   # We call build to ensure dependencies are correctly built after upgrade
