@@ -17,14 +17,14 @@
     "@uidotdev/usehooks": "^2.4.1",
     "antd": "^6.1.0",
     "dayjs": "^1.11.19",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "react-router": "^7.10.1",
     "zustand": "^5.0.9"
   },
   "devDependencies": {
     "@aimerfan/eslint-config": "^0.3.4",
-    "@iconify-json/material-symbols": "^1.2.49",
+    "@iconify-json/material-symbols": "^1.2.50",
     "@iconify-json/mdi": "^1.2.3",
     "@redux-devtools/extension": "^3.3.0",
     "@types/react": "^19.2.7",

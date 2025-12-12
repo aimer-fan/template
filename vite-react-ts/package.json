@@ -14,8 +14,8 @@
   "license": "MIT",
   "author": "",
   "dependencies": {
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@aimerfan/eslint-config": "^0.3.4",
