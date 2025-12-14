@@ -19,7 +19,7 @@
   "devDependencies": {
     "@aimerfan/eslint-config": "^0.3.4",
     "@vitejs/plugin-vue": "^6.0.3",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "typescript": "^5.9.3",
     "unplugin-auto-import": "^20.3.0",
     "unplugin-vue-components": "^30.0.0",

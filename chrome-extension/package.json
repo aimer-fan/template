@@ -22,7 +22,7 @@
     "@unocss/preset-attributify": "^66.5.10",
     "@unocss/reset": "^66.5.10",
     "@vitejs/plugin-react": "^5.1.2",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "typescript": "^5.9.3",
     "unocss": "^66.5.10",
     "vite": "^7.2.7"
