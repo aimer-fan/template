@@ -2,8 +2,8 @@ name: Upgrade Dependencies
 
 on:
   schedule:
-    # 每周一晚上 8 点 (UTC) 运行
-    - cron: '0 20 * * 1'
+    # 每月1号晚上 8 点 (UTC) 运行
+    - cron: '0 20 1 * *'
   # 也可以手动触发
   workflow_dispatch:
 
