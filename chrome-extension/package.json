@@ -19,12 +19,12 @@
     "@aimerfan/eslint-config": "^0.3.5",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "@unocss/preset-attributify": "^66.5.11",
-    "@unocss/reset": "^66.5.11",
+    "@unocss/preset-attributify": "^66.5.12",
+    "@unocss/reset": "^66.5.12",
     "@vitejs/plugin-react": "^5.1.2",
     "eslint": "^9.39.2",
     "typescript": "^5.9.3",
-    "unocss": "^66.5.11",
+    "unocss": "^66.5.12",
     "vite": "^7.3.0"
   }
 }
