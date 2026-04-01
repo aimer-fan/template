@@ -29,13 +29,13 @@
     "@aimerfan/eslint-config": "^0.3.5",
     "@rollup/plugin-typescript": "^12.3.0",
     "@tsconfig/node20": "^20.1.9",
-    "@types/node": "^25.3.3",
-    "eslint": "^10.0.2",
+    "@types/node": "^25.5.0",
+    "eslint": "^10.1.0",
     "rimraf": "^6.1.3",
-    "rollup": "^4.59.0",
-    "rollup-plugin-dts": "^6.3.0",
+    "rollup": "^4.60.1",
+    "rollup-plugin-dts": "^6.4.1",
     "tslib": "^2.8.1",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "engines": {
     "node": ">=20"
