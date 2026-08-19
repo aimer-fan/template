@@ -15,24 +15,24 @@
   "dependencies": {
     "@ant-design/icons": "^6.3.2",
     "@uidotdev/usehooks": "^2.4.1",
-    "antd": "^6.5.0",
+    "antd": "^6.5.3",
     "dayjs": "^1.11.21",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
-    "react-router": "^8.1.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router": "^8.3.0",
     "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@aimerfan/eslint-config": "^0.3.5",
-    "@iconify-json/material-symbols": "^1.2.82",
+    "@iconify-json/material-symbols": "^1.2.88",
     "@iconify-json/mdi": "^1.2.3",
     "@redux-devtools/extension": "^4.0.0",
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
-    "@unocss/preset-icons": "^66.7.4",
-    "@vitejs/plugin-react": "^6.0.3",
-    "eslint": "^10.6.0",
-    "unocss": "^66.7.4",
-    "vite": "^8.1.2"
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@unocss/preset-icons": "^66.7.5",
+    "@vitejs/plugin-react": "^6.0.5",
+    "eslint": "^10.8.0",
+    "unocss": "^66.7.5",
+    "vite": "^8.2.0"
   }
 }
